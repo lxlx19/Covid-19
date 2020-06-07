@@ -38,7 +38,7 @@ taxa = round((float(mortes_ratio) * 100.00),2)
 
 print("Cidade de: ", cidade)
 print("População de: ", populacao)
-print("Dados de ", date, "estamos na semana epidemiológica: ", semana)
+print("Dados de", date, "estamos na semana epidemiológica: ", semana)
 print("O número de casos confirmados é", casos_conf, "sendo que são", casos_novos, "novos.")
 print("Temos uma taxa de contaminação ", taxa_contaminacao, "%, com", casos_100k, 'para cada 100mil habitantes.')
 print("O número de mortes confirmados é", mortes_conf, "sendo que são", mortes_novas, "novas.")
